@@ -206,6 +206,7 @@
 <pin name="SW2" x="15.24" y="12.7" length="middle" rot="R180"/>
 <pin name="GND" x="0" y="-20.32" length="middle" rot="R90"/>
 <text x="-10.16" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.27" y="15.748" size="1.778" layer="97">LTC3625</text>
 </symbol>
 </symbols>
 <devicesets>
