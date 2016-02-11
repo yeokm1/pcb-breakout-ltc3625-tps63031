@@ -185,13 +185,13 @@ Rev 2 (Feb 2016)
 Designer: Yeo Kheng Meng</text>
 <text x="9.37" y="18.45" size="0.8128" layer="21" rot="R270">SW2 ind</text>
 <text x="10.17" y="4.35" size="0.8128" layer="21" rot="R90">SW1 ind</text>
-<text x="32.2" y="9.9" size="0.6096" layer="22" rot="MR0">For 1A SCAP charger:
-R1 = 61.9k ohm
-
-Consult LTC3625 &amp; TPS63031 datasheest before use!!!
+<text x="32.15" y="9.95" size="0.6096" layer="22" rot="MR0">Consult LTC3625 &amp; TPS63031 datasheet before use!!!
 2 inductors are not always required</text>
 <text x="29.1" y="18.6" size="0.6096" layer="21" rot="R180">TPS_PS</text>
 <text x="28.4" y="17.14" size="0.6096" layer="21">TPS_EN</text>
+<text x="32.4" y="15.75" size="0.6096" layer="22" rot="MR0">For 1A SCAP charger:
+R1 = 61.9k ohm</text>
+<text x="34.5" y="12.95" size="0.6096" layer="22" rot="MR0">R3 &amp; R4 are pull-up resistors for TPS_PS and TPS_EN respectively. </text>
 </plain>
 <libraries>
 <library name="ltc3625">
