@@ -160,30 +160,72 @@
 <library name="ltc3625">
 <packages>
 <package name="DFN12(DE)">
-<wire x1="-2.25" y1="2.25" x2="-3.075" y2="2.25" width="0.3048" layer="21"/>
-<wire x1="-3.075" y1="2.25" x2="-3.075" y2="0.6" width="0.3048" layer="21"/>
-<wire x1="-3.075" y1="0.6" x2="-2.775" y2="0.6" width="0.3048" layer="21"/>
-<wire x1="-2.775" y1="0.6" x2="-2.775" y2="-0.6" width="0.3048" layer="21"/>
-<wire x1="-2.775" y1="-0.6" x2="-3.075" y2="-0.6" width="0.3048" layer="21"/>
-<wire x1="-3.075" y1="-0.6" x2="-3.075" y2="-2.25" width="0.3048" layer="21"/>
-<wire x1="-3.075" y1="-2.25" x2="-2.25" y2="-2.25" width="0.3048" layer="21"/>
-<wire x1="2.25" y1="2.25" x2="3.075" y2="2.25" width="0.3048" layer="21"/>
-<wire x1="3.075" y1="2.25" x2="3.075" y2="-2.25" width="0.3048" layer="21"/>
-<wire x1="3.075" y1="-2.25" x2="2.25" y2="-2.25" width="0.3048" layer="21"/>
-<text x="0" y="3.81" size="1.778" layer="27" align="center">&gt;NAME</text>
-<smd name="1" x="-1.875" y="-2.175" dx="1.05" dy="0.42" layer="1" rot="R90"/>
-<smd name="2" x="-1.125" y="-2.175" dx="1.05" dy="0.42" layer="1" rot="R90"/>
-<smd name="3" x="-0.375" y="-2.175" dx="1.05" dy="0.42" layer="1" rot="R90"/>
-<smd name="4" x="0.375" y="-2.175" dx="1.05" dy="0.42" layer="1" rot="R90"/>
-<smd name="5" x="1.125" y="-2.175" dx="1.05" dy="0.42" layer="1" rot="R90"/>
-<smd name="6" x="1.875" y="-2.175" dx="1.05" dy="0.42" layer="1" rot="R90"/>
-<smd name="7" x="1.875" y="2.175" dx="1.05" dy="0.42" layer="1" rot="R90"/>
-<smd name="8" x="1.125" y="2.175" dx="1.05" dy="0.42" layer="1" rot="R90"/>
-<smd name="9" x="0.375" y="2.175" dx="1.05" dy="0.42" layer="1" rot="R90"/>
-<smd name="10" x="-0.375" y="2.175" dx="1.05" dy="0.42" layer="1" rot="R90"/>
-<smd name="11" x="-1.125" y="2.175" dx="1.05" dy="0.42" layer="1" rot="R90"/>
-<smd name="12" x="-1.875" y="2.175" dx="1.05" dy="0.42" layer="1" rot="R90"/>
-<smd name="13" x="0" y="0" dx="5.025" dy="2.625" layer="1"/>
+<wire x1="-1.9" y1="1.4" x2="1.9" y2="1.4" width="0.2032" layer="51"/>
+<wire x1="1.9" y1="1.4" x2="1.9" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="1.9" y1="-1.4" x2="-1.9" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-1.9" y1="-1.4" x2="-1.9" y2="-0.5" width="0.2032" layer="21"/>
+<smd name="1" x="-1.25" y="-1.45" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.75" y="-1.45" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-0.25" y="-1.45" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="4" x="0.25" y="-1.45" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="5" x="0.75" y="-1.45" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="6" x="1.25" y="-1.45" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="7" x="1.25" y="1.45" dx="0.25" dy="0.7" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="8" x="0.75" y="1.45" dx="0.25" dy="0.7" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="9" x="0.25" y="1.45" dx="0.25" dy="0.7" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="10" x="-0.25" y="1.45" dx="0.25" dy="0.7" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="11" x="-0.75" y="1.45" dx="0.25" dy="0.7" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="12" x="-1.25" y="1.45" dx="0.25" dy="0.7" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="13" x="0" y="0" dx="3.3" dy="1.7" layer="1" roundness="25" stop="no" cream="no"/>
+<text x="-1.7" y="2.25" size="0.8128" layer="25">&gt;NAME</text>
+<rectangle x1="-1.4" y1="-1.825" x2="-1.1" y2="-1.075" layer="29"/>
+<rectangle x1="-1.35" y1="-1.775" x2="-1.15" y2="-1.125" layer="31"/>
+<rectangle x1="-0.9" y1="-1.825" x2="-0.6" y2="-1.075" layer="29"/>
+<rectangle x1="-0.85" y1="-1.775" x2="-0.65" y2="-1.125" layer="31"/>
+<rectangle x1="-0.4" y1="-1.825" x2="-0.1" y2="-1.075" layer="29"/>
+<rectangle x1="-0.35" y1="-1.775" x2="-0.15" y2="-1.125" layer="31"/>
+<rectangle x1="0.1" y1="-1.825" x2="0.4" y2="-1.075" layer="29"/>
+<rectangle x1="0.15" y1="-1.775" x2="0.35" y2="-1.125" layer="31"/>
+<rectangle x1="0.6" y1="-1.825" x2="0.9" y2="-1.075" layer="29"/>
+<rectangle x1="0.65" y1="-1.775" x2="0.85" y2="-1.125" layer="31"/>
+<rectangle x1="1.1" y1="-1.825" x2="1.4" y2="-1.075" layer="29"/>
+<rectangle x1="1.15" y1="-1.775" x2="1.35" y2="-1.125" layer="31"/>
+<rectangle x1="1.1" y1="1.075" x2="1.4" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="1.15" y1="1.125" x2="1.35" y2="1.775" layer="31" rot="R180"/>
+<rectangle x1="0.6" y1="1.075" x2="0.9" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="0.65" y1="1.125" x2="0.85" y2="1.775" layer="31" rot="R180"/>
+<rectangle x1="0.1" y1="1.075" x2="0.4" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="0.15" y1="1.125" x2="0.35" y2="1.775" layer="31" rot="R180"/>
+<rectangle x1="-0.4" y1="1.075" x2="-0.1" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="-0.35" y1="1.125" x2="-0.15" y2="1.775" layer="31" rot="R180"/>
+<rectangle x1="-0.9" y1="1.075" x2="-0.6" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="-0.85" y1="1.125" x2="-0.65" y2="1.775" layer="31" rot="R180"/>
+<rectangle x1="-1.4" y1="1.075" x2="-1.1" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="-1.35" y1="1.125" x2="-1.15" y2="1.775" layer="31" rot="R180"/>
+<polygon width="0.2032" layer="29">
+<vertex x="-1.575" y="-0.6"/>
+<vertex x="-1.575" y="0.625" curve="-90"/>
+<vertex x="-1.45" y="0.775"/>
+<vertex x="1.45" y="0.775" curve="-90"/>
+<vertex x="1.575" y="0.65"/>
+<vertex x="1.575" y="-0.65" curve="-90"/>
+<vertex x="1.45" y="-0.775"/>
+<vertex x="-1.4" y="-0.775"/>
+</polygon>
+<polygon width="0.2032" layer="31">
+<vertex x="-1.5" y="-0.525"/>
+<vertex x="-1.5" y="0.55" curve="-90"/>
+<vertex x="-1.375" y="0.7"/>
+<vertex x="1.375" y="0.7" curve="-90"/>
+<vertex x="1.5" y="0.575"/>
+<vertex x="1.5" y="-0.575" curve="-90"/>
+<vertex x="1.375" y="-0.7"/>
+<vertex x="-1.325" y="-0.7"/>
+</polygon>
+<circle x="-1.6" y="-1.06" radius="0.15" width="0" layer="21"/>
+<wire x1="-1.9" y1="-0.5" x2="-1.9" y2="0.4" width="0.2032" layer="21"/>
+<wire x1="-1.9" y1="0.4" x2="-1.9" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-1.9" y1="0.4" x2="-1.9" y2="-0.5" width="0.127" layer="21" curve="120"/>
 </package>
 </packages>
 <symbols>
@@ -215,7 +257,7 @@
 <gate name="G$1" symbol="LTC3625" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DFN12(DE)">
+<device name="EDE" package="DFN12(DE)">
 <connects>
 <connect gate="G$1" pin="CTL" pad="3"/>
 <connect gate="G$1" pin="EN" pad="5"/>
@@ -7633,7 +7675,7 @@ Modified: by Eugene Sadovoi evgeni@eniks.com&lt;/author&gt;</description>
 </class>
 </classes>
 <parts>
-<part name="IC1" library="ltc3625" deviceset="LTC3625" device=""/>
+<part name="IC1" library="ltc3625" deviceset="LTC3625" device="EDE"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X8" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X8" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
