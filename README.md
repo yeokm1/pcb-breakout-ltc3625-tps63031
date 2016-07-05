@@ -3,6 +3,8 @@ Pin breakout of the LTC3625 supercapacitor charger with TPS63031 3.3V regulator 
 
 <b>WARNING</b>: Consult the LTC3625 and TPS63031 datasheets in conjunction with the Eagle schematic to learn proper usage of this breakout.
 
+If your project uses low currents it might be better enable power-save mode by setting the power save (PS) pin 7 of the TPS63031 to ground.
+
 ##PCB Design software and addons used
 
 1. Eagle 7.5.0: I use Standard but Light should still be able to open/modify the files.
