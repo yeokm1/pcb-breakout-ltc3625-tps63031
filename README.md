@@ -33,3 +33,4 @@ Images are exported from Eagle at 600dpi.
 7. 0805 LED
 8. 2x 8-pin through-hole pin headers
 9. Hirose ZX62D-B-5PA8 micro-USB connector
+10. 1.5uH inductor
