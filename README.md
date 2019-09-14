@@ -5,7 +5,7 @@ Pin breakout of the LTC3625 supercapacitor charger with TPS63031 3.3V regulator 
 
 If your project uses low currents it might be better enable power-save mode by setting the power save (PS) pin 7 of the TPS63031 to ground.
 
-##PCB Design software and addons used
+## PCB Design software and addons used
 
 1. Eagle 7.5.0: I use Standard but Light should still be able to open/modify the files.
 2. My custom ltc3625 library
@@ -13,7 +13,7 @@ If your project uses low currents it might be better enable power-save mode by s
 4. [Coilcraft inductor](https://github.com/robertstarr/lbr_user/blob/master/inductor-coilcraft.lbr)
 5. [TPS63031](http://e2e.ti.com/support/development_tools/webench_design_center/f/234/p/379556/1338022)
 
-##Images
+## Images
 None at this time
 
 ##Schematic drawings
@@ -23,7 +23,7 @@ Images are exported from Eagle at 600dpi.
 
 ![Screen](images/schematic.png)
 
-##Parts required
+## Parts required
 1. Linear Technology LTC3625
 2. Texas Instruments TPS63031
 3. 4x 10uF 0805 ceramic capacitors
